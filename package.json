@@ -1,0 +1,17 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "repositorio que contiene todos los retos de codember",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "codember",
+    "challenges",
+    "midudev"
+  ],
+  "author": "xavimon",
+  "license": "ISC"
+}
