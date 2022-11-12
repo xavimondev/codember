@@ -6,7 +6,7 @@
 
 # 👨‍💻 Codember
 
-Codember es un juego y reto de programación que se realiza en el mes de noviembre para la comunidad de [midudev](https://www.twitch.tv/midudev).
+Codember es un juego y reto de programación que se realiza en el mes de noviembre para la comunidad de [midudev](https://www.twitch.tv/midudev). Todos los retos de este año los estaré desarrollando en javascript.
 
 ## ¿Cómo funciona?
 
