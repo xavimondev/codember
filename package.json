@@ -1,7 +1,7 @@
 {
   "name": "codember",
-  "version": "1.0.0",
-  "description": "repositorio que contiene todos los retos de codember",
+  "version": "2.0.0",
+  "description": "Repositorio con todos los retos de codember",
   "main": "index.js",
   "type": "module",
   "scripts": {
