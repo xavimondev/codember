@@ -1,4 +1,4 @@
-## A spy is sending encrypted messages.
+# A spy is sending encrypted messages.
 
 Your mission is to create a program that decodes the messages.
 
