@@ -13,5 +13,8 @@
     "midudev"
   ],
   "author": "xavimon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@colors/colors": "^1.6.0"
+  }
 }

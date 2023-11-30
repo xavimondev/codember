@@ -1,8 +1,9 @@
-import fs from 'fs';
+import fs from 'fs'
+import { paintGreen } from '../paint.js'
 const listPoliciesOne = `2-4 f: fgff
 4-6 z: zzzsg
 1-6 h: hhhhhh`
-const listPoliciesTwo = fs.readFileSync('message_03.txt', 'utf-8');
+const listPoliciesTwo = fs.readFileSync('message_03.txt', 'utf-8')
 
 function challengeThree(policies) {
   const invalidPasswords = []
@@ -37,4 +38,4 @@ function challengeThree(policies) {
 }
 
 const answer = challengeThree(listPoliciesTwo).at(41)
-console.log(`submit ${answer}`)
+console.log(paintGreen({ text: `submit ${answer}` }))

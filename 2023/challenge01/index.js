@@ -1,5 +1,6 @@
-import fs from 'fs';
-const message = fs.readFileSync('message_01.txt', 'utf-8');
+import fs from 'fs'
+import { paintGreen } from '../paint.js'
+const message = fs.readFileSync('message_01.txt', 'utf-8')
 
 function challengeOne(message) {
   let result = ''
@@ -17,4 +18,4 @@ function challengeOne(message) {
   return result
 }
 
-console.log(challengeOne(message))
+console.log(paintGreen({ text: `submit ${challengeOne(message)}` }))

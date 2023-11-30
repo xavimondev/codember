@@ -1,5 +1,6 @@
-import fs from 'fs';
-const message = fs.readFileSync('message_02.txt', 'utf-8');
+import fs from 'fs'
+import { paintGreen } from '../paint.js'
+const message = fs.readFileSync('message_02.txt', 'utf-8')
 
 function challengeTwo(string) {
   let currentValue = 0
@@ -19,4 +20,4 @@ function challengeTwo(string) {
   return output
 }
 
-console.log(challengeTwo(message))
+console.log(paintGreen({ text: `submit ${challengeTwo(message)}` }))

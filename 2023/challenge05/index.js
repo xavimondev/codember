@@ -1,5 +1,7 @@
+
 import fs from 'fs'
 import { isValidField } from './utils.js'
+import { paintGreen } from '../paint.js'
 const data = fs.readFileSync('database_attacked.txt', 'utf-8')
 
 function challengeFive(data) {
@@ -25,4 +27,4 @@ function challengeFive(data) {
   return invalids.map(invalid => invalid.at(0)).join('')
 }
 
-console.log(`submit ${challengeFive(data)}`)
+console.log(paintGreen({ text: `submit ${challengeFive(data)}` }))
